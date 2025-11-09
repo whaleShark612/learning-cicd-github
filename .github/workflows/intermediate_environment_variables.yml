@@ -2,7 +2,7 @@ name: Intermediate Environment Variables
 on: push
 jobs: 
   print:
-    rusn-on: ubuntu-latest
+    runs-on: ubuntu-latest
     env:
       ACTOR: ${{ github.actor }}
     steps:
